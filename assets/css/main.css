@@ -1313,14 +1313,22 @@
 				#header h1 {
 					position: absolute;
 					left: 0;
-					bottom: 35px;
+					bottom: 60px;
 					font-size: 2.75em;
 				}
 
-					#header h1 a {
-						color: #fff;
-						text-decoration: none;
-					}
+				#header h1 a {
+					color: #fff;
+					text-decoration: none;
+				}
+
+               #header h5 {
+                    position: absolute;
+                    left: 0;
+                    bottom: 25px;
+                    color: #fff;
+				    text-decoration: none;
+               }
 
 				#header nav {
 					position: absolute;
@@ -1354,15 +1362,35 @@
 					margin-bottom: 0;
 				}
 
-				#banner p {
-					font-size: 2em;
+				#banner h4 {
+					font-size: 45px;
 					font-weight: 200;
-					line-height: 1.25em;
+					line-height: 10px;
 					padding-right: 1em;
+                    padding-top: 150px;
 					margin: 0 0 1em 0;
+                    text-align: center;
 				}
 
+                #banner h6 {
+                    font-size: 30px;
+                    text-align: right;
+                    padding-left: 50px;
+                }
+
 		/* Features */
+
+          	#header h2 {
+					position: absolute;
+					left: 0;
+					bottom: 60px;
+					font-size: 2.75em;
+				}
+
+				#header h2 {
+					color: #fff;
+					text-decoration: none;
+				}
 
 			#features {
 				color: #a0a8ab;
@@ -1409,6 +1437,7 @@
 			#content header {
 				margin: 0 0 2em 0;
 			}
+
 
 		/* Footer */
 
