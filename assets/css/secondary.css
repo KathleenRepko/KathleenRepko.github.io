@@ -1,0 +1,22 @@
+﻿body {
+}
+
+.jumbotron{
+    background-color:#f7f7f7;
+    height:360px;
+    text-align:center;
+    font-size: 50px;
+    color:#a0a8ab;
+    padding:150px;
+}
+#branches.jumbotron{
+    background-image:url(~/images/oakBranch.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    max-width:100%;
+    height: 360px;   
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+
+}

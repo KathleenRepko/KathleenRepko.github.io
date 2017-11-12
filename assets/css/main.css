@@ -1434,7 +1434,7 @@
             height:360px;
         }*/
 
-        .item {
+        /*.item {
             border:solid 1px #272e31;
         }
         .carousel-indicators li {
@@ -1443,7 +1443,7 @@
         }
         .carousel-indicators .active {
             background-color: darkslategrey;
-        }
+        }*/
 
 		/* Content */
 
@@ -1472,7 +1472,6 @@
 			#content header {
 				margin: 0 0 2em 0;
 			}
-
 
 
 		/* Footer */
