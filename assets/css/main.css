@@ -1299,15 +1299,15 @@
 
 			#features-wrapper {
 				background: #353D40 url("images/bg02.jpg");
-				border-bottom: solid 1px #fff;
-				padding: 30px 0 30px 0;
+				border-bottom: solid 2px #fff;
+				padding: 30px 0 40px 0;
 				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			}
 
 			#content-wrapper {
 				background: #f7f7f7 url("images/bg04.png");
 				border-bottom: solid 1px #fff;
-				padding: 45px 0 45px 0;
+				padding: 20px 0 30px 0;
 			}
 
 			#footer-wrapper {
@@ -1647,7 +1647,7 @@
 			}
 
 			.subpage #content-wrapper {
-				padding-top: 44px;
+				padding-top: 75px;
 			}
 
 			#footer-wrapper {
