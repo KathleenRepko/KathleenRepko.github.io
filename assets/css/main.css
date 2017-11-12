@@ -1089,7 +1089,7 @@
 	}
 
 	a {
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 		a:hover {
@@ -1139,7 +1139,7 @@
 		.quote-list li p {
 			margin: 0 0 0 90px;
 			font-size: 1.2em;
-			font-style: italic;
+            padding-top:30px;
 		}
 
 		.quote-list li span {
@@ -1152,7 +1152,8 @@
 	.check-list li {
 		padding: 0.7em 0 0.7em 45px;
 		font-size: 1.2em;
-		background: url("images/icon-checkmark.png") 0px 1.05em no-repeat;
+		background: url("/images/acornGlyph2.2.png") 0px 1.05em no-repeat;
+        background-position: left;
 	}
 
 		.check-list li:first-child {
@@ -1247,6 +1248,10 @@
 	#content .check-list li {
 		border-bottom: solid 1px #e2e6e8;
 	}
+    /*Contact Form*/
+    .inputField {
+        width:100%;
+    }
 
 /* Footer */
 
@@ -1294,7 +1299,7 @@
 
 			#features-wrapper {
 				background: #353D40 url("images/bg02.jpg");
-				border-bottom: solid 1px ##fff;
+				border-bottom: solid 1px #fff;
 				padding: 30px 0 30px 0;
 				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			}
@@ -1423,6 +1428,23 @@
                     max-width:100%;
                 }
 
+        /*Carousel*/
+        /*.carousel-inner {
+            width:640px;
+            height:360px;
+        }*/
+
+        .item {
+            border:solid 1px #272e31;
+        }
+        .carousel-indicators li {
+            background-color: darkslategrey;
+            background-color: rgba(80,80,80,0.25);
+        }
+        .carousel-indicators .active {
+            background-color: darkslategrey;
+        }
+
 		/* Content */
 
 			#content section {
@@ -1444,12 +1466,13 @@
 			}
 
 			#content a {
-				color: #ED391B;
+				color: #373f42;
 			}
 
 			#content header {
 				margin: 0 0 2em 0;
 			}
+
 
 
 		/* Footer */
@@ -1713,12 +1736,17 @@
 			}
 
 			#content a {
-				color: #ED391B;
+				color: #373f42;
 			}
 
 			#content header {
 				margin: 0 0 1.25em 0;
 			}
+            .linkText{
+                color:#373f42;
+                text-decoration: none;
+
+            }
 
 		/* Footer */
 
